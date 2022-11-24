@@ -1,0 +1,26 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+  padding: 0;
+}
+
+/* * {
+  border: 1px solid #121212;
+} */
+
+h1 {
+  position: relative;
+}
+
+pre code {
+  background-color: #333333;
+  color: #f1fff1;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #12121250;
+  display: block;
+  padding: 20px;
+}
