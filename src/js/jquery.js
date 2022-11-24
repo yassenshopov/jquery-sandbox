@@ -8,5 +8,12 @@ $(function() {
         .css("color", "#f1f1f1")
         .css("background-color", "#121212")
     }
-    )
+    );
+
+    $("#pkmnBtn").click(() => {
+        $.get("https://pokeapi.co/api/v2/pokemon/pikachu", function(data, status){
+            $("#pkmnBtn").html(data.name);
+            console.log(data.name)
+        });
+    });
 });
